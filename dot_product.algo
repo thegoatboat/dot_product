@@ -1,0 +1,26 @@
+ALGORITHM dot_product
+VAR
+    v1, v2 : ARRAY_OF Float [n];
+   ,n: integer
+BEGIN
+   whrit("donner moi un chiffre 'longeur des v1 /v2")
+    read n
+    whrit("give IR verctor ")
+    read v1
+    whrit("give IR verctor 2")
+    read v2
+
+function dotProduct(v1, v2)
+    VAR
+    ps,i : integer
+    ps = 0;
+    FOR i FROM 0 TO v1.length STEP 1  DO
+        ps = ps + (v1[i] * v2[i])
+
+    END_FOR
+        
+    read ps
+  
+        
+
+END
